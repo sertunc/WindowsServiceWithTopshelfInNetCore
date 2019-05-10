@@ -7,5 +7,5 @@ go to publish folder and open your command prompt as Administrator
 
 WindowsServiceWithTopshelfInNetCore.exe install -servicename "MyService" -displayname "MyService Display Name" -description "MyService Description"
 
-#Unistall
+# Unistall
 WindowsServiceWithTopshelfInNetCore.exe uninstall
