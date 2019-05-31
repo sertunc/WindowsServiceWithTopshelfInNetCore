@@ -23,7 +23,6 @@ namespace WindowsServiceWithTopshelfInNetCore
 
         public bool Stop()
         {
-            //File.Delete(@"C:\ApiAgentPublish\Service.Write.txt");
             Console.WriteLine($"[{nameof(MyService)}] has been stopped.....");
 
             return true;
